@@ -71,3 +71,50 @@ img {
 .clear {
   clear: both;
 }
+
+/* ____________RESP__________________________________ */
+
+@media screen and (max-width: 420px) {
+body {
+    margin: 0;
+    font-size: 18px;
+  }
+.row {
+    width: 100%;
+    margin-top: 0px;
+  }
+img{
+    height: 100px;
+  }
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+    margin-top: 50px;
+}
+#why .row > h1 {
+  margin: 0px;
+  padding-top: 50px;
+}
+.right img {
+    margin-top: 50px;
+  
+  }
+.central img {
+    margin-top: 50px;
+  
+  }
+
+
+}
